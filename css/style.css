@@ -1,0 +1,339 @@
+@import: url('reset.css');
+@font-face {
+    font-family: 'myriadProRegular';
+    src: url('../fonts/Myriad pro regular.otf');
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+}
+
+.headerList {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 16%;
+    padding-left: 0;
+}
+
+.headerList>li {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.contactsAddres {
+    margin-top: 1px;
+    font: bold 14px myriadProRegular, Sans-serif, Arial;
+}
+
+#sendMail {
+    position: relative;
+    top: 2px;
+    left: 30px;
+    padding: 0;
+    height: 71px;
+    width: 197px;
+    background: url(../images/headerSendButton2.png)no-repeat;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font: bold 16px myriadProRegular, Sans-serif, Arial;
+}
+
+.logoImage {
+    float: left;
+}
+
+.logoText {
+    float: left;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 250px;
+    height: 68px;
+    color: red;
+    font: bold 16px myriadProRegular, Sans-serif, Arial;
+    border-left: 1px solid silver;
+}
+
+nav {
+    width: 100%;
+    height: 25px;
+    margin-top: 25px;
+    border-bottom: 7px solid red;
+    padding: 0;
+}
+
+.navBar {
+    display: flex;
+    height: 25px;
+    list-style: none;
+    position: relative;
+    left: 28%;
+    padding: 0;
+}
+
+.navBar> li {
+    min-height: 25px;
+    margin-left: 60px;
+    font: bold 17px myriadProRegular, Sans-serif, Arial;
+    padding: 0;
+}
+.navBar >li:hover{
+	border-bottom: 7px solid orange;
+}
+
+.navBar >li> a {
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+.navBar li a:hover {
+    
+    color: red;
+}
+
+.promoBlock {
+    width: 100%;
+    height: 341px;
+    background: url(../images/promo-bg.jpg)no-repeat;
+}
+
+.presentationText {
+    width: 100%;
+    margin-top: 15px;
+    padding-bottom: 35px;
+}
+
+.presentationText h1 {
+    position: relative;
+    left: 44%;
+    font-family: myriadProRegular;
+    padding-bottom: 40px;
+}
+
+.presentationText div {
+    width: 900px;
+    position: relative;
+    left: 18%;
+}
+
+.presentationText>div>img {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.presentationText>div>p {
+    font-family: myriadProRegular;
+    font-size: 15px;
+}
+
+.whatWeDo {
+    width: 100%;
+    margin-top: 25px;
+    padding-bottom: 35px;
+}
+
+.whatWeDo h1 {
+    font-family: myriadProRegular;
+    position: relative;
+    left: 41.5%;
+    padding-bottom: 40px;
+}
+
+.string1 {
+    margin-top: 20px;
+}
+
+.string1 ul {
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+}
+
+.string1>ul>li {
+    margin-left: 12%;
+}
+
+.string1>ul>li>div>p {
+    font: bold 14px myriadProRegular;
+    margin-left: 16px;
+}
+
+.string2 {}
+
+.string2 ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    top: 5%;
+    left: 10%;
+}
+
+.string2 ul li {
+    margin-left: 12.5%;
+}
+
+.string2 ul li div p {
+    font: bold 14px myriadProRegular;
+}
+
+.our {
+    padding-top: 10px;
+    background: #dddcda;
+    padding-bottom: 50px;
+}
+
+.our h1 {
+    position: relative;
+    left: 39.9%;
+    top: 1%;
+    font-family: myriadProRegular;
+    padding-bottom: 40px;
+}
+
+.our ul {
+    list-style: none;
+    position: relative;
+    left: 5%;
+    display: flex;
+}
+
+.our ul li {
+    margin-left: 14%;
+}
+
+.our ul li div img {
+    margin-left: 25px;
+}
+
+.our ul li div p.preText {
+    margin-left: -15px;
+    font: bold 17px myriadProRegular;
+}
+
+.our ul li div p.preText {
+    margin-left: 0px;
+}
+
+.our ul li div p.preText1 {
+    margin-left: 41px;
+    font: bold 17px myriadProRegular;
+}
+
+.our ul li div p.preText2 {
+    margin-left: 25px;
+    font: bold 17px myriadProRegular;
+}
+
+.our ul li div p {
+    font: bold 15px myriadProRegular;
+}
+
+footer {
+    background: #120e0b;
+    height: 160px;
+}
+
+.copyright {
+    position: relative;
+    top: 45%;
+    left: 20%;
+}
+
+.copyright img {
+    float: left;
+}
+.copyText {
+    margin-top: 30px;
+	margin-left: 20px;
+    color: white;
+    font-family: myriadProRegular;
+    font-size: 14px;
+}
+.footNav {
+	position: relative;
+    top: 20%;
+    left: 55%;
+    
+}
+.footNav ul {
+    list-style: none;
+	display: flex;
+}
+.footNav ul li {
+	margin-left: 40px;
+}
+.footNav ul li a {
+    text-decoration: none;
+    border-bottom: 2px solid white;
+	color: white;
+    font: bold 16px myriadProRegular;
+}
+.footNav ul li a:hover {
+    color: orange;
+    border-color: red;
+}
+
+/*Страница партнеров*/
+.parthners h1 {
+   
+	position: relative;
+    display: block;
+    left: 52%;
+    margin-top: 2%;
+    font-family: myriadProRegular;
+    
+}
+.parthners {
+    width:1100px;
+    min-height: 900px;
+	background: url(../images/parthner/parthners.png)no-repeat;
+}
+
+//Контакты
+.mainContact  {
+    
+}
+.officeIcon{
+    
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.contact {
+    position: relative;
+    left: 23%;
+    
+	width: 700px;
+    height: 400px;
+    background: #ff7f00;
+}
+.contact ul.weAreWereTxt {
+    list-style: none;
+	color: white;
+    
+    font-family: myriadProRegular;
+}
+.weAreWereTxt > li.t1 {
+    font: bold 17px myriadProRegular;
+    
+}
+.map {
+    width: 300px;
+    height: 280px;s
+    border: 8px solid white;
+    
+}
